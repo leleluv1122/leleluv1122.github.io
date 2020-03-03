@@ -1,41 +1,41 @@
----
-title: "spring boot & jpa & mysql & jsp ¼îÇÎ¸ô ¸¸µé±â(2)"
+ï»¿---
+title: "spring boot & jpa & mysql & jsp ì‡¼í•‘ëª° ë§Œë“¤ê¸°(2)"
 categories: springboot
 ---
 
-spring boot ¼îÇÎ¸ô¸¸µé±â !
-sts3, mysql, jpa, jsp¸¦ »ç¿ëÇÏ¿´½À´Ï´Ù.
+spring boot ì‡¼í•‘ëª°ë§Œë“¤ê¸° !
+sts3, mysql, jpa, jspë¥¼ ì‚¬ìš©í•˜ì˜€ìŠµë‹ˆë‹¤.
 
-## 1) Mysql UserÅ×ÀÌºí »ı¼ºÇÏ±â
- workbench ·Î ¿Í¼­ »ı¼ºÇÑ schema¸¦ ¿­°í Tables¸¦ ¿À¸¥ÂÊ¸¶¿ì½º·Î Å¬¸¯ ÈÄ create table !
+## 1) Mysql Userí…Œì´ë¸” ìƒì„±í•˜ê¸°
+ workbench ë¡œ ì™€ì„œ ìƒì„±í•œ schemaë¥¼ ì—´ê³  Tablesë¥¼ ì˜¤ë¥¸ìª½ë§ˆìš°ìŠ¤ë¡œ í´ë¦­ í›„ create table !
 
  ![8](../../../assets/8.JPG)
 
- ÀÌ¿Í °°ÀÌ ÀÛ¼ºÇØÁİ´Ï´Ù ±×¸®°í apply > apply 
+ ì´ì™€ ê°™ì´ ì‘ì„±í•´ì¤ë‹ˆë‹¤ ê·¸ë¦¬ê³  apply > apply 
 
-## 2) lombok ¼³Ä¡
- lombokÀº getter, setter ¸Ş¼Òµå¸¦ ÀÚµ¿À¸·Î »ı¼ºÇØÁà¼­ ±¸ÇöÇÏÁö ¾Ê¾Æµµ µÈ´Ù
+## 2) lombok ì„¤ì¹˜
+ lombokì€ getter, setter ë©”ì†Œë“œë¥¼ ìë™ìœ¼ë¡œ ìƒì„±í•´ì¤˜ì„œ êµ¬í˜„í•˜ì§€ ì•Šì•„ë„ ëœë‹¤
  
- Å¬·¡½º¿¡  `@Data` ¾î³ëÅ×ÀÌ¼Ç¸¸ ºÙ¿©ÁÖ¸é µÈ´Ù!
+ í´ë˜ìŠ¤ì—  `@Data` ì–´ë…¸í…Œì´ì…˜ë§Œ ë¶™ì—¬ì£¼ë©´ ëœë‹¤!
 
- ¸ÕÀú, https://projectlombok.org/download.html ·Î °¡¼­ lombok.jar¸¦ ´Ù¿î·ÎµåÇÑ´Ù
+ ë¨¼ì €, https://projectlombok.org/download.html ë¡œ ê°€ì„œ lombok.jarë¥¼ ë‹¤ìš´ë¡œë“œí•œë‹¤
 
  ![9](../../../assets/9.JPG) 
 
- lombok.jar¸¦ ¿­°í À§¿¡ »çÁøÃ³·³ specify location... > sts¼³Ä¡Æú´õ¿¡¼­ sts.exe¸¦ Å¬¸¯ÇÏ°í selectÇÑ´Ù
+ lombok.jarë¥¼ ì—´ê³  ìœ„ì— ì‚¬ì§„ì²˜ëŸ¼ specify location... > stsì„¤ì¹˜í´ë”ì—ì„œ sts.exeë¥¼ í´ë¦­í•˜ê³  selectí•œë‹¤
 
- ºü¸¥½Ã°£¿¡ ¼³Ä¡°¡ ¿Ï·áµÇ¾ú´Ù ¼³Ä¡°¡ µÇ¾ú´ÂÁö È®ÀÎÇÏ°í½ÍÀ¸¸é
+ ë¹ ë¥¸ì‹œê°„ì— ì„¤ì¹˜ê°€ ì™„ë£Œë˜ì—ˆë‹¤ ì„¤ì¹˜ê°€ ë˜ì—ˆëŠ”ì§€ í™•ì¸í•˜ê³ ì‹¶ìœ¼ë©´
 
 ![10](../../../assets/10.JPG) 
 
-stsÆú´õ·Î °¡¼­ STS.ini / SpringToolSuite3.ini ÆÄÀÏÀÇ ³»¿ë¿¡¼­ Çü±¤ÆÒÄ£ ºÎºĞÀÌ ÀÖÀ¸¸é ¼º°ø ¾øÀ¸¸é ÀÔ·ÂÇÑ´Ù
+stsí´ë”ë¡œ ê°€ì„œ STS.ini / SpringToolSuite3.ini íŒŒì¼ì˜ ë‚´ìš©ì—ì„œ í˜•ê´‘íŒ¬ì¹œ ë¶€ë¶„ì´ ìˆìœ¼ë©´ ì„±ê³µ ì—†ìœ¼ë©´ ì…ë ¥í•œë‹¤
 
 
-## 3) Java Å¬·¡½º ±¸Çö
-### 1. JPA Entity Å¬·¡½º ±¸Çö
- db¿¡ »ı¼ºÇß´ø user Å×ÀÌºíÀ» ¼³Á¤ÇØº¼°Ô¿ä
+## 3) Java í´ë˜ìŠ¤ êµ¬í˜„
+### 1. JPA Entity í´ë˜ìŠ¤ êµ¬í˜„
+ dbì— ìƒì„±í–ˆë˜ user í…Œì´ë¸”ì„ ì„¤ì •í•´ë³¼ê²Œìš”
 
- À§Ä¡: src/main/java/net/lele/domain/User.java
+ ìœ„ì¹˜: src/main/java/net/lele/domain/User.java
 
  - User.java 
 ```java
@@ -51,8 +51,8 @@ import lombok.Data;
 @Data
 @Entity
 public class User {
-	@Id //primary key¼³Á¤
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //Auto increment¼³Á¤
+	@Id //primary keyì„¤ì •
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //Auto incrementì„¤ì •
 	int id;
 
 	int enable;
@@ -70,9 +70,9 @@ public class User {
 }
 ```  
 
-### 2. Repository Å¬·¡½º ±¸Çö
+### 2. Repository í´ë˜ìŠ¤ êµ¬í˜„
 
- À§Ä¡: src/main/java/net/lele/repository/UserRepository.java
+ ìœ„ì¹˜: src/main/java/net/lele/repository/UserRepository.java
 
  - UserRepository.java
 ```java
@@ -85,21 +85,21 @@ import net.lele.domain.User;
 public interface UserRepository extends JpaRepository<User, Integer> {
 
 	User findOneByUserId(String userId); 
-	// User Å×ÀÌºí¿¡¼­ userIdÇÊµå·Î ·¹ÄÚµå¸¦ Á¶È¸ÇÏ´Â ¸Ş¼Òµå
-	// jpa query creation ±â´É¿¡ ÀÇÇØ ÀÌ ¸Ş¼Òµå°¡ ÀÚµ¿À¸·Î ±¸ÇöµÈ´Ù
-	// È¤½Ã DB¿¡ userId·Î Á¶È¸ÇÑ ·¹ÄÚµå°¡ 2°³ ÀÌ»óÀÌ¸é ÀÌ ¸Ş¼Òµå´Â ¿¡·¯°¡ ¹ß»ıÇÑ´Ù	
+	// User í…Œì´ë¸”ì—ì„œ userIdí•„ë“œë¡œ ë ˆì½”ë“œë¥¼ ì¡°íšŒí•˜ëŠ” ë©”ì†Œë“œ
+	// jpa query creation ê¸°ëŠ¥ì— ì˜í•´ ì´ ë©”ì†Œë“œê°€ ìë™ìœ¼ë¡œ êµ¬í˜„ëœë‹¤
+	// í˜¹ì‹œ DBì— userIdë¡œ ì¡°íšŒí•œ ë ˆì½”ë“œê°€ 2ê°œ ì´ìƒì´ë©´ ì´ ë©”ì†Œë“œëŠ” ì—ëŸ¬ê°€ ë°œìƒí•œë‹¤	
 
 	User findByUserId(String userId);
 }
 ```
 
-### 3. Utility Å¬·¡½º
- - À¯Æ¿¸®Æ¼ Å¬·¡½º´Â ¹¹¿¡¿ä!!
-  ¿©·¯ ÇÁ·ÎÁ§Æ®¿¡¼­ °øÅëÀ¸·Î »ç¿ëµÉ ¼ö ÀÖ´Â ¹ü¿ë ±â´ÉÀ» ±¸ÇöÇÑ Å¬·¡½º
+### 3. Utility í´ë˜ìŠ¤
+ - ìœ í‹¸ë¦¬í‹° í´ë˜ìŠ¤ëŠ” ë­ì—ìš”!!
+  ì—¬ëŸ¬ í”„ë¡œì íŠ¸ì—ì„œ ê³µí†µìœ¼ë¡œ ì‚¬ìš©ë  ìˆ˜ ìˆëŠ” ë²”ìš© ê¸°ëŠ¥ì„ êµ¬í˜„í•œ í´ë˜ìŠ¤
 
-  ºñ¹Ğ¹øÈ£ ¾ÏÈ£È­µî ¾ÏÈ£È­/º¹È£È­ ±â´ÉÀ» À¯Æ¿¸®Æ¼ Å¬·¡½º¿¡ ¸ğ¾Æ¼­ ±¸Çö
+  ë¹„ë°€ë²ˆí˜¸ ì•”í˜¸í™”ë“± ì•”í˜¸í™”/ë³µí˜¸í™” ê¸°ëŠ¥ì„ ìœ í‹¸ë¦¬í‹° í´ë˜ìŠ¤ì— ëª¨ì•„ì„œ êµ¬í˜„
 
- À§Ä¡: src/main/java/net/lele/utils/EncryptionUtils.java
+ ìœ„ì¹˜: src/main/java/net/lele/utils/EncryptionUtils.java
 
  - EncryptionUtils.java
 
@@ -110,7 +110,7 @@ import java.security.MessageDigest;
 
 public class EncryptionUtils {
 
-	public static String encryptSHA256(String s) { // ÀÌ°Ô ´õ °­·ÂÇÔ
+	public static String encryptSHA256(String s) { // ì´ê²Œ ë” ê°•ë ¥í•¨
 		return encrypt(s, "SHA-256");
 	}
 
@@ -119,11 +119,11 @@ public class EncryptionUtils {
 	}
 
 	public static String encrypt(String s, String messageDigest) {
-	// messageDigest ÆÄ¶ó¹ÌÅÍ
-	// ÀÌ ÆÄ¶ó¹ÌÅÍ´Â ¾ÏÈ£È­ ¾Ë°í¸®ÁòÀ» ÁöÁ¤ÇÑ´Ù
+	// messageDigest íŒŒë¼ë¯¸í„°
+	// ì´ íŒŒë¼ë¯¸í„°ëŠ” ì•”í˜¸í™” ì•Œê³ ë¦¬ì¦˜ì„ ì§€ì •í•œë‹¤
 		try {
 			MessageDigest md = MessageDigest.getInstance(messageDigest);
-			//SHA-256 or MD5 ¾Ë°í¸®Áò ÁöÁ¤°¡´É
+			//SHA-256 or MD5 ì•Œê³ ë¦¬ì¦˜ ì§€ì •ê°€ëŠ¥
 			byte[] passBytes = s.getBytes();
 			md.reset();
 			byte[] digested = md.digest(passBytes);
@@ -137,12 +137,12 @@ public class EncryptionUtils {
 	}
 }
 ```
-### 4. Service Å¬·¡½º
- - ¼­ºñ½º Å¬·¡½º´Â ¶Ç ¹¹¿¡¿ä!
-  ÄÁÆ®·Ñ·¯ Å¬·¡½º¿¡ ±¸Ã¼ÀûÀÎ ÀÛ¾÷³»¿ëÀÌ ¾Æ´Ñ ÁöÈÖ ÅëÁ¦¿¡ ÇØ´çÇÏ´Â ÄÚµå¸¸ µé¾îÀÖ¾î¾ßÇÑ´Ù.
-±¸Ã¼ÀûÀÎ ÀÛ¾÷ ³»¿ëÀº ¼­ºñ½º Å¬·¡½º¿¡ ±¸ÇöµÇ¾î¾ß ÇÑ´Ù.
+### 4. Service í´ë˜ìŠ¤
+ - ì„œë¹„ìŠ¤ í´ë˜ìŠ¤ëŠ” ë˜ ë­ì—ìš”!
+  ì»¨íŠ¸ë¡¤ëŸ¬ í´ë˜ìŠ¤ì— êµ¬ì²´ì ì¸ ì‘ì—…ë‚´ìš©ì´ ì•„ë‹Œ ì§€íœ˜ í†µì œì— í•´ë‹¹í•˜ëŠ” ì½”ë“œë§Œ ë“¤ì–´ìˆì–´ì•¼í•œë‹¤.
+êµ¬ì²´ì ì¸ ì‘ì—… ë‚´ìš©ì€ ì„œë¹„ìŠ¤ í´ë˜ìŠ¤ì— êµ¬í˜„ë˜ì–´ì•¼ í•œë‹¤.
 
- À§Ä¡: src/main/java/net/lele/service/UserService.java
+ ìœ„ì¹˜: src/main/java/net/lele/service/UserService.java
 
  - UserService.java
 
@@ -170,7 +170,7 @@ public class UserService {
 		if (user == null)
 			return null;
 		String pw = EncryptionUtils.encryptMD5(password); 
-		// ÆĞ½º¿öµå¸¦ ¾ÏÈ£È­ÇØ¼­ ¾ÏÈ£È­µÇ¼­ ÀúÀåµÈ db¿Í ºñ±³ÇÑ´Ù
+		// íŒ¨ìŠ¤ì›Œë“œë¥¼ ì•”í˜¸í™”í•´ì„œ ì•”í˜¸í™”ë˜ì„œ ì €ì¥ëœ dbì™€ ë¹„êµí•œë‹¤
 
 		if (user.getPassword().equals(pw) == false)
 			return null;
@@ -181,13 +181,13 @@ public class UserService {
 		if (bindingResult.hasErrors())
 			return true;
 		if (userModel.getPasswd1().equals(userModel.getPasswd2()) == false) {
-			bindingResult.rejectValue("passwd2", null, "ºñ¹Ğ¹øÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.");
+			bindingResult.rejectValue("passwd2", null, "ë¹„ë°€ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			return true;
 		}
 
 		User user = userRepository.findOneByUserId(userModel.getUserid());
 		if (user != null) {
-			bindingResult.rejectValue("userid", null, "»ç¿ëÀÚ ¾ÆÀÌµğ°¡ Áßº¹µË´Ï´Ù.");
+			bindingResult.rejectValue("userid", null, "ì‚¬ìš©ì ì•„ì´ë””ê°€ ì¤‘ë³µë©ë‹ˆë‹¤.");
 			return true;
 		}
 		return false;
@@ -216,10 +216,10 @@ public class UserService {
 	}
 }
 ```
- È¸¿ø°¡ÀÔ°ú ·Î±×ÀÎ ±â´ÉÀ» »ç¿ëÇÏ±â À§ÇÑ ÄÚµåµéÀÌ´Ù.
+ íšŒì›ê°€ì…ê³¼ ë¡œê·¸ì¸ ê¸°ëŠ¥ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•œ ì½”ë“œë“¤ì´ë‹¤.
 
 
- À§Ä¡: src/main/java/net/lele/service/MyAuthenticationProvider.java
+ ìœ„ì¹˜: src/main/java/net/lele/service/MyAuthenticationProvider.java
 
  - MyAuthenticationProvider.java
 ```java
@@ -239,7 +239,7 @@ import org.springframework.stereotype.Component;
 
 import net.lele.domain.User;
 
-// »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ·Î±×ÀÎ ¾ÆÀÌµğ¿Í ºñ¹Ğ¹øÈ£¸¦ °Ë»çÇÒ ¶§ »ç¿ëµÇ´Â Å¬·¡½º
+// ì‚¬ìš©ìê°€ ì…ë ¥í•œ ë¡œê·¸ì¸ ì•„ì´ë””ì™€ ë¹„ë°€ë²ˆí˜¸ë¥¼ ê²€ì‚¬í•  ë•Œ ì‚¬ìš©ë˜ëŠ” í´ë˜ìŠ¤
 @Component
 public class MyAuthenticationProvider implements AuthenticationProvider {
 
@@ -251,12 +251,12 @@ public class MyAuthenticationProvider implements AuthenticationProvider {
         String passwd = authentication.getCredentials().toString();
         return authenticate(loginId, passwd);
     }
-    // »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ·Î±×ÀÎ ¾ÆÀÌµğ¿Í ºñ¹Ğ¹øÈ£¸¦ °Ë»çÇØ¾ß ÇÒ ¶§ ÀÚµ¿À¸·Î È£Ãâ
-    // »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ·Î±×ÀÎ ¾ÆÀÌµğ¿Í ºñ¹Ğ¹øÈ£°¡ ÀÌ ¸Ş¼ÒµåÀÇ ÆÄ¶ó¹ÌÅÍ·Î Àü´ŞµÊ
+    // ì‚¬ìš©ìê°€ ì…ë ¥í•œ ë¡œê·¸ì¸ ì•„ì´ë””ì™€ ë¹„ë°€ë²ˆí˜¸ë¥¼ ê²€ì‚¬í•´ì•¼ í•  ë•Œ ìë™ìœ¼ë¡œ í˜¸ì¶œ
+    // ì‚¬ìš©ìê°€ ì…ë ¥í•œ ë¡œê·¸ì¸ ì•„ì´ë””ì™€ ë¹„ë°€ë²ˆí˜¸ê°€ ì´ ë©”ì†Œë“œì˜ íŒŒë¼ë¯¸í„°ë¡œ ì „ë‹¬ë¨
 
     public Authentication authenticate(String loginId, String password) throws AuthenticationException {
         User user = userService.login(loginId, password);
-        if (user == null) return null; //°Ë»ç°¡ ½ÇÆĞÇÏ¸é null ¸®ÅÏ
+        if (user == null) return null; //ê²€ì‚¬ê°€ ì‹¤íŒ¨í•˜ë©´ null ë¦¬í„´
 
         List<GrantedAuthority> grantedAuthorities = new ArrayList<GrantedAuthority>();
         String role = "";
@@ -264,8 +264,8 @@ public class MyAuthenticationProvider implements AuthenticationProvider {
         case "admin": role = "ROLE_ADMIN"; break;
         case "user": role = "ROLE_STUDENT"; break;
         }
-        // User Å×ÀÌºíÀÇ userType ÇÊµåÀÇ °ªÀº '°ü¸®ÀÚ', 'user'
-        // spring security ±ÇÇÑÀ» ROLE_~~ ·Î ¼³Á¤ÇÑ´Ù
+        // User í…Œì´ë¸”ì˜ userType í•„ë“œì˜ ê°’ì€ 'ê´€ë¦¬ì', 'user'
+        // spring security ê¶Œí•œì„ ROLE_~~ ë¡œ ì„¤ì •í•œë‹¤
         grantedAuthorities.add(new SimpleGrantedAuthority(role));
         return new MyAuthenticaion(loginId, password, grantedAuthorities, user);
     }
@@ -296,9 +296,9 @@ public class MyAuthenticationProvider implements AuthenticationProvider {
 }
 ```
 
-### 5. Java Config Å¬·¡½º
+### 5. Java Config í´ë˜ìŠ¤
 
-À§Ä¡: src/main/java/net/lele/config/SecurityConfig.java
+ìœ„ì¹˜: src/main/java/net/lele/config/SecurityConfig.java
 
 - SecurityConfig.java
 
@@ -323,52 +323,52 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(WebSecurity web) throws Exception {
 		web.ignoring().antMatchers("/res/**");
 	}
-	// /res/** ÆĞÅÏÀÇ URLÀº º¸¾È°Ë»ç¸¦ ÇÏÁö ¸»°í ¹«½ÃÇÏ¶ó´Â ¼³Á¤ (¸®¼Ò½ºÆÄÀÏµé)
+	// /res/** íŒ¨í„´ì˜ URLì€ ë³´ì•ˆê²€ì‚¬ë¥¼ í•˜ì§€ ë§ê³  ë¬´ì‹œí•˜ë¼ëŠ” ì„¤ì • (ë¦¬ì†ŒìŠ¤íŒŒì¼ë“¤)
 
 	@Override
     protected void configure(HttpSecurity http) throws Exception
     {
-        http.authorizeRequests() //±ÇÇÑ ¼³Á¤ ½ÃÀÛ    /   ¾Õ>>>>µÚ - ¿ì¼±¼øÀ§
+        http.authorizeRequests() //ê¶Œí•œ ì„¤ì • ì‹œì‘    /   ì•>>>>ë’¤ - ìš°ì„ ìˆœìœ„
 			.antMatchers("/admin/**").hasAuthority("ROLE_ADMIN")   /* .access("ROLE_ADMIN") */
-            //admin/** ÆĞÅÏÀº ROLE_ADMIN±ÇÇÑ¼ÒÀ¯ÀÚ¸¸ ¿äÃ»°¡´É ¾Æ´Ï¸é °ÅºÎ´çÇÔ
+            //admin/** íŒ¨í„´ì€ ROLE_ADMINê¶Œí•œì†Œìœ ìë§Œ ìš”ì²­ê°€ëŠ¥ ì•„ë‹ˆë©´ ê±°ë¶€ë‹¹í•¨
             .antMatchers("/guest/**").permitAll()
-            // ·Î±×ÀÎÇÏÁö ¾ÊÀº »ç¿ëÀÚµµ Çã¿ë
+            // ë¡œê·¸ì¸í•˜ì§€ ì•Šì€ ì‚¬ìš©ìë„ í—ˆìš©
             .antMatchers("/").permitAll()
-            // ¸ğµç »ç¿ëÀÚ ¤·¤µ¤·
+            // ëª¨ë“  ì‚¬ìš©ì ã…‡ã……ã…‡
             .antMatchers("/**").authenticated();
-        // /** ÆĞÅÏÀº ·Î±×ÀÎµÈ »ç¿ëÀÚ¿¡°Ô¸¸ Çã¿ë
+        // /** íŒ¨í„´ì€ ë¡œê·¸ì¸ëœ ì‚¬ìš©ìì—ê²Œë§Œ í—ˆìš©
 
         http.csrf().disable();
-        //CSRF °ø°İ °Ë»çÇÏÁö¾Ê°Ú´ç ~_~
+        //CSRF ê³µê²© ê²€ì‚¬í•˜ì§€ì•Šê² ë‹¹ ~_~
 
-        http.formLogin() //·Î±×ÀÎ ÆäÀÌÁö ¼³Á¤ ½ÃÀÛ
-            .loginPage("/guest/login") //·Î±×ÀÎ ÆäÀÌÁö URL ¼³Á¤
+        http.formLogin() //ë¡œê·¸ì¸ í˜ì´ì§€ ì„¤ì • ì‹œì‘
+            .loginPage("/guest/login") //ë¡œê·¸ì¸ í˜ì´ì§€ URL ì„¤ì •
             .loginProcessingUrl("/guest/login_processing")
-            // ·Î±×ÀÎ ÆäÀÌÁö¿¡¼­ '·Î±×ÀÎ' ¹öÆ°ÀÌ ´­·µÀ»¶§ ¿äÃ»ÇÒ URL ¼³Á¤
+            // ë¡œê·¸ì¸ í˜ì´ì§€ì—ì„œ 'ë¡œê·¸ì¸' ë²„íŠ¼ì´ ëˆŒëŸ¿ì„ë•Œ ìš”ì²­í•  URL ì„¤ì •
             .failureUrl("/guest/login?error")
-            // ·Î±×ÀÎÀÌ ½ÇÆĞÇßÀ» ¶§ redirect URL ¼³Á¤
+            // ë¡œê·¸ì¸ì´ ì‹¤íŒ¨í–ˆì„ ë•Œ redirect URL ì„¤ì •
             .defaultSuccessUrl("/user/index", true)
-            // ·Î±×ÀÎÀÌ ¼º°øÇßÀ» ¶§ redirect URL ¼³Á¤
+            // ë¡œê·¸ì¸ì´ ì„±ê³µí–ˆì„ ë•Œ redirect URL ì„¤ì •
             .usernameParameter("loginId")
             .passwordParameter("passwd");
-        	// ·Î±×ÀÎ ÆäÀÌÁö(view)¿¡¼­ ·Î±×ÀÎ id inputÅÂ±×ÀÇ name°ª°ú ºñ¹Ğ¹øÈ£ inputÅÂ±×ÀÇ name°ª ¼³Á¤
+        	// ë¡œê·¸ì¸ í˜ì´ì§€(view)ì—ì„œ ë¡œê·¸ì¸ id inputíƒœê·¸ì˜ nameê°’ê³¼ ë¹„ë°€ë²ˆí˜¸ inputíƒœê·¸ì˜ nameê°’ ì„¤ì •
 
-        http.logout() //·Î±×¾Æ¿ô ¼³Á¤ ½ÃÀÛ
+        http.logout() //ë¡œê·¸ì•„ì›ƒ ì„¤ì • ì‹œì‘
             .logoutRequestMatcher(new AntPathRequestMatcher("/user/logout_processing"))
-            // ·Î±×¾Æ¿ô ¹öÆ°ÀÌ³ª ¸µÅ©¸¦ ´­·¶À» ¶§ ¿äÃ»ÇÒ URL ¼³Á¤
+            // ë¡œê·¸ì•„ì›ƒ ë²„íŠ¼ì´ë‚˜ ë§í¬ë¥¼ ëˆŒë €ì„ ë•Œ ìš”ì²­í•  URL ì„¤ì •
             .logoutSuccessUrl("/guest/index")
-            //·Î±×¾Æ¿ôµÈ ÈÄ  redirect URL ¼³Á¤
+            //ë¡œê·¸ì•„ì›ƒëœ í›„  redirect URL ì„¤ì •
             .invalidateHttpSession(true);
-        	// ·Î±×¾Æ¿ôÇÒ ¶§ session¿¡ µé¾îÀÖ´Â µ¥ÀÌÅÍ¸¦ ÀüºÎ Áö¿ì¶ó´Â ¼³Á¤
+        	// ë¡œê·¸ì•„ì›ƒí•  ë•Œ sessionì— ë“¤ì–´ìˆëŠ” ë°ì´í„°ë¥¼ ì „ë¶€ ì§€ìš°ë¼ëŠ” ì„¤ì •
 
         http.authenticationProvider(myAuthenticationProvider);
     }
 }
 ```
 
-### 6. Controller Å¬·¡½º
+### 6. Controller í´ë˜ìŠ¤
 
-À§Ä¡: src/main/java/net/lele/controller/GuestController.java
+ìœ„ì¹˜: src/main/java/net/lele/controller/GuestController.java
 
  - GuestController.java
 
@@ -437,4 +437,4 @@ public class UserController {
 }
 ```
 
- ÈÄ... ¤»¤» ±âº»java¼³Á¤Àº ³¡³½°Å°°À¸´Ï... view´Â ´ÙÀ½¿¡!! ¾È´¨»Ğ>_<¡Ú
+ í›„... ã…‹ã…‹ ê¸°ë³¸javaì„¤ì •ì€ ëë‚¸ê±°ê°™ìœ¼ë‹ˆ... viewëŠ” ë‹¤ìŒì—!! ì•ˆë‡½ë¿…>_<â˜…
