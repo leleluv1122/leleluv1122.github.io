@@ -51,7 +51,7 @@ logging.level.org.hibernate.SQL=DEBUG
 logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 server.session.timeout = 600
 ```
-이렇게 설정해줍니다
+이렇게 설정해줍니다 당연히 schema_name과 db_password는 자기걸로 바꿀게요!
 
 `spring.mvc.view.prefix=/WEB-INF/views/` // 기본 view가 위치하는곳
 
@@ -66,11 +66,19 @@ src > main 에 webapp/WEB-INF/views 폴더를 생성한다.
 pom.xml로 가서 
 ```
 <dependency>
+  <groupId>org.springframework.security</groupId>
+  <artifactId>spring-security-taglibs</artifactId>
+</dependency>    
+<dependency>
 	<groupId>jstl</groupId>
 	<artifactId>jstl</artifactId>
 	<version>1.2</version>
 </dependency>
 ```
+
+ - Security
+  spring security 확장 태그 라이브러리
+
  - JSTL
   JSTL 확장 태그를 사용하기 위해서 필요한 라이브러리 입니다. (ex. <c:forEach><c:if> )
 
