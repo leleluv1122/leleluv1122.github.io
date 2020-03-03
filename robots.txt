@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://leleluv1122.github.io/sitemap.xml
