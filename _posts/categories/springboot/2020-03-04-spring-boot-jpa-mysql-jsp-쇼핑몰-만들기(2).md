@@ -38,6 +38,7 @@ sts폴더로 가서 STS.ini / SpringToolSuite3.ini 파일의 내용에서 형광
  위치: src/main/java/net/lele/domain/User.java
 
  - User.java 
+
 ```java
 package net.lele.domain;
 
@@ -75,6 +76,7 @@ public class User {
  위치: src/main/java/net/lele/repository/UserRepository.java
 
  - UserRepository.java
+
 ```java
 package net.lele.repository;
 
@@ -137,6 +139,7 @@ public class EncryptionUtils {
 	}
 }
 ```
+
 ### 4. Service 클래스
  - 서비스 클래스는 또 뭐에요!
   컨트롤러 클래스에 구체적인 작업내용이 아닌 지휘 통제에 해당하는 코드만 들어있어야한다.
@@ -222,6 +225,7 @@ public class UserService {
  위치: src/main/java/net/lele/service/MyAuthenticationProvider.java
 
  - MyAuthenticationProvider.java
+
 ```java
 package net.lele.service;
 
