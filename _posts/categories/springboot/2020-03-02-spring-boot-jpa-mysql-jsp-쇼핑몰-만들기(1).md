@@ -63,7 +63,16 @@ your_schema_name과 db_password를 자신의 것으로 설정하구 저장합니
 
 src > main 에 webapp/WEB-INF/views 폴더를 생성한다.
 
-
+pom.xml로 가서 
+```
+<dependency>
+	<groupId>jstl</groupId>
+	<artifactId>jstl</artifactId>
+	<version>1.2</version>
+</dependency>
+```
+ - JSTL
+  JSTL 확장 태그를 사용하기 위해서 필요한 라이브러리 입니다. (ex. <c:forEach><c:if> )
 
 
 스프링부트는 mvc에 비해 이미 설정된것이 많아서 기본 설정하는 부분은 좀 적다.!! 그럼안뇽뿅>_< 
