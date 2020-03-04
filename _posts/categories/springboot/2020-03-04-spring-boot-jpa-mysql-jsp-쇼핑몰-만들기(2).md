@@ -1,6 +1,7 @@
 ﻿---
 title: "spring boot & jpa & mysql & jsp 쇼핑몰 만들기(2)"
 categories: springboot
+comments: true
 ---
 
 spring boot 쇼핑몰만들기 !

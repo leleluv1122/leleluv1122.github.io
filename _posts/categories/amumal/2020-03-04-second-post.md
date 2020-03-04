@@ -2,6 +2,7 @@
 title: "승히의 두번째 강제포스팅"
 date: 2020-03-04 01:21:30 -0400
 categories: amumal
+comments: true
 ---
 
 왜 안올라갈까...  springboot 게시글전나 열시미 썻는데 왜안올라갈까.....

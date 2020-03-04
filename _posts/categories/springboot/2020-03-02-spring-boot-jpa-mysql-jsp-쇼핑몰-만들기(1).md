@@ -2,6 +2,7 @@
 title: "spring boot & jpa & mysql & jsp 쇼핑몰 만들기(1)"
 date: 2020-03-03 00:55:35 -0400
 categories: springboot
+comments: true
 ---
 
 spring boot에 jpa와 mysql을 사용해서 쇼핑몰만들기를 포스팅해봅니당
