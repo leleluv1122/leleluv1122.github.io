@@ -25,6 +25,7 @@ comments: true
 Name을 설정하고 Package: net.lele로 해주겠습니다 ~~
 
  ![12](../../../assets/12.JPG)
+
 요렇게 설정해주고 Finish 버튼을 눌러줄게요!
 
  
@@ -211,15 +212,19 @@ public class MungController {
 프로젝트에 오른쪽마우스로 클릭하고 Run as > Spring Boot App
 
 <http://localhost:8080/mung/insert> 로 들어가면
+
  ![15](../../../assets/15.JPG)
+
 와 같이 뜹니다! 파일선택후 업로드를 클릭해주세용ㅎㅎ
 
 그리고는 db를 먼저 확인해봅니다
 
  ![13](../../../assets/13.JPG)
+
 내 경로는 github에 프로젝트를 올리다가 약간 경로가 이상해져서 그렇다ㅠㅠ
 
 spring 프로젝트도 Refresh를 해주니 아주 잘 들어가있다
+
  ![14](../../../assets/14.JPG)
 
 이제 이걸 눈으로 보고싶다 이말입니다~~~ 안보고 싶을수도있지만ㅠㅅㅠ
