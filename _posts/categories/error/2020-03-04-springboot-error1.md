@@ -1,5 +1,5 @@
 ﻿---
-title: "Path with "WEB-INF" or "META-INF": [WEB-INF/views/shop/index.jsp]"
+title: "Path with WEB-INF or META-INF: [WEB-INF/views/shop/index.jsp] "
 categories: error
 comments: true
 ---
