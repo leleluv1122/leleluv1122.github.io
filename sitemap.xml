@@ -1,5 +1,3 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -11,22 +9,52 @@
 
 <url>
   <loc>https://leleluv1122.github.io/</loc>
-  <lastmod>2020-03-03T15:48:23+00:00</lastmod>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-%EC%87%BC%ED%95%91%EB%AA%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0(1)/</loc>
-  <lastmod>2020-03-03T15:48:23+00:00</lastmod>
+  <loc>https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-%ED%8C%8C%EC%9D%BC%EC%97%85%EB%A1%9C%EB%93%9C/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://leleluv1122.github.io/amumal/first-post/</loc>
-  <lastmod>2020-03-03T15:48:23+00:00</lastmod>
+  <loc>https://leleluv1122.github.io/amumal/second-post/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-%EC%87%BC%ED%95%91%EB%AA%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0(2)/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/error/springboot-error2/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/error/springboot-error1/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/page2/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://leleluv1122.github.io/categories/</loc>
-  <lastmod>2020-03-03T15:48:23+00:00</lastmod>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-%EC%87%BC%ED%95%91%EB%AA%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0(1)/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://leleluv1122.github.io/amumal/first-post/</loc>
+  <lastmod>2020-03-04T16:02:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
