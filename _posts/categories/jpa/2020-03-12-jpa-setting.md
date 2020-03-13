@@ -1,5 +1,5 @@
 ﻿---
-title: "JPA의 설정"
+title: "JPA 설정"
 categories: jpa
 comments: true
 ---
