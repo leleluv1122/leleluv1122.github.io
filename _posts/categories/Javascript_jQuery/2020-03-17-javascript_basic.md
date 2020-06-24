@@ -1,6 +1,6 @@
 ﻿---
 title: "JavaScript의 기본문법"
-categories: Javascript&jQuery
+categories: Javascript_jQuery
 comments: true
 ---
 

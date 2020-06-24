@@ -1,6 +1,6 @@
 ﻿---
 title: "jQuery 다양한 효과, 애니메이션"
-categories: Javascript&jQuery
+categories: Javascript_jQuery
 comments: true
 ---
 

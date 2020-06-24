@@ -1,6 +1,6 @@
 ﻿---
 title: "jQuery event"
-categories: Javascript&jQuery
+categories: Javascript_jQuery
 comments: true
 ---
 
