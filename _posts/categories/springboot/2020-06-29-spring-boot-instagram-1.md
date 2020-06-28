@@ -23,7 +23,7 @@ comments: true
 
  그러고 Add Account
 
-![add_account1](../../../assets/l-1.JPG)
+![add_account1](../../../assets/I-1.JPG)
 
  비밀번호는 하고싶은걸로~ 그러고 Apply 해주기
 
