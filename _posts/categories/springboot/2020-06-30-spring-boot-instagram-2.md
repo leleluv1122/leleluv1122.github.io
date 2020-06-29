@@ -350,7 +350,7 @@ outstagram에 오른쪽마우스 > Run as > Spring boot App
 
 chrome에서 <http://localhost:8080> 에 접속해보자
 
-![outstagram_로그인페이지](../../../assets/I-8.JPG)
+![outstagram_로그인페이지](../../../assets/l-8.JPG)
 
 로그인페이지 완성!!
 
