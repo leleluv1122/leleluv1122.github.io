@@ -1,5 +1,5 @@
 ﻿---
-title: "Spring boot Jsp JPA 인스타그램 따라해보기"
+title: "스프링부트 Jsp JPA 인스타그램 따라해보기 (1) "
 categories: springboot
 comments: true
 ---

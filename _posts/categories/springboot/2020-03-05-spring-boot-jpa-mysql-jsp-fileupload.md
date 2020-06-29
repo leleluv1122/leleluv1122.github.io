@@ -1,10 +1,10 @@
 ﻿---
-title: "spring boot & jpa & mysql & jsp 파일(이미지)업로드"
+title: "스프링 부트 & jpa & mysql & jsp 파일(이미지)업로드"
 categories: springboot
 comments: true
 ---
 
-파일 업로드(MultipartFile)를 구글링해봐도 JPA는 나오지않구
+ Spring boot에서 파일 업로드(MultipartFile)를 구글링해봐도 JPA는 나오지않구
  mybatis밖에 나오지 않아서 쓰는 글ㅠ 
 
  내가 못찾은 거일수도....ㅋㅋㅋ 똑똑한사람들은 응용해서 잘할수도잇고!!

@@ -1,5 +1,5 @@
 ﻿---
-title: "spring boot & jpa & mysql & jsp 쇼핑몰 만들기(1)"
+title: "스프링부트 & jpa & mysql & jsp 쇼핑몰 만들기(1)"
 date: 2020-03-03 00:55:35 -0400
 categories: springboot
 comments: true

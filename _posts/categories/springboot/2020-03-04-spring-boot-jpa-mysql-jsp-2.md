@@ -1,5 +1,5 @@
 ﻿---
-title: "spring boot & jpa & mysql & jsp 쇼핑몰 만들기(2)"
+title: "스프링부트 & jpa & mysql & jsp 쇼핑몰 만들기(2)"
 categories: springboot
 comments: true
 ---
