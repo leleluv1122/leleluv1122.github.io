@@ -1,5 +1,5 @@
 ﻿---
-title: "스프링부트 Jsp JPA 인스타그램 따라해보기 (2) "
+title: "스프링부트 Jsp JPA Spring Security 인스타그램 따라해보기 (2) "
 categories: springboot
 comments: true
 ---
@@ -7,7 +7,8 @@ comments: true
 ## 실행 환경
  > STS3, MySQL
 
-
+## 사용언어(환경)
+ > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
 ![회원가입화면](../../../assets/l-6.JPG)
 

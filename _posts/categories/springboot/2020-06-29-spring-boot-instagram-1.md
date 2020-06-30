@@ -1,5 +1,5 @@
 ﻿---
-title: "스프링부트 Jsp JPA 인스타그램 따라해보기 (1) "
+title: "스프링부트 Jsp JPA Spring Security 인스타그램 따라해보기 (1) "
 categories: springboot
 comments: true
 ---
@@ -7,8 +7,11 @@ comments: true
 ## 실행 환경
  > STS3, MySQL
 
+## 사용언어(환경)
+ > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
-3개월 반만에 spring boot로 웹페이지 만들기 도전!!
+
+3개월 반만에 spring boot로 웹페이지 만들기 도전!! 
 
 요즘 C++만해서 자바랑 jsp 다 너무 오랜만에 하는듯ㅠㅠ
 
