@@ -1,5 +1,5 @@
 ﻿---
-title: "[JSTL] <c:if>와 <c:choose> <c:when> <c:otherwise> 사용법"
+title: "[JSTL] c:if와 c:choose c:when c:otherwise 사용법"
 categories: springboot
 comments: true
 ---
