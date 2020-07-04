@@ -4,11 +4,16 @@ categories: springboot
 comments: true
 ---
 
+
+
 ## 실행 환경
  > STS3, MySQL
 
+
+
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
+
 
 
 
@@ -95,17 +100,17 @@ public String register(@Valid UserRegistrationModel userModel, BindingResult bin
 ```
 
 
-![회원가입창](../../../assets/I-9.JPG)
+![회원가입창](../../../assets/l-9.JPG)
 
-![회원가입창2](../../../assets/I-10.JPG)
+![회원가입창2](../../../assets/l-10.JPG)
 
-![db저장이미지](../../../assets/I-11.JPG)
+![db저장이미지](../../../assets/l-11.JPG)
 
 저장이 잘 된 모습을 볼 수 있다.. 또한 회원가입버튼을 누르면 정상적으로 될 경우 로그인페이지로 redirect되는 모습을 볼 수 있다.
 
 또한 회원가입에 에러가 발생할 경우 당연히 db에는 저장이 되지않고, 에러 문구가 나옴
  
-![error페이지](../../../assets/I-12.JPG)
+![error페이지](../../../assets/l-12.JPG)
 
 
 이렇게 로그인을 할 수 있는 아이디를 생성했다~ 로그인해보면 아직 그 다음페이지는 만들지 않아서 오류가 발생하지만 로그인 자체는 된 모습을 볼 수 있다.
