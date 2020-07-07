@@ -1,5 +1,5 @@
 ﻿---
-title: "스프링부트 Jsp JPA Spring Security 인스타그램 따라해보기 (1) "
+title: "스프링부트 Jsp JPA Spring Security 인스타그램 따라해보기 (1) - db셋팅 & lombok설치 & Maven 하기"
 categories: springboot
 comments: true
 ---

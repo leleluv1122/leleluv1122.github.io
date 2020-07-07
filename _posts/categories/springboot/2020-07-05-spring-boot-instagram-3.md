@@ -1,20 +1,14 @@
 ﻿---
-title: "스프링 부트 Jsp JPA Spring Security 인스타그램 따라해보기 (3) "
+title: "스프링 부트 Jsp JPA Spring Security 인스타그램 따라해보기 (3) - 회원가입"
 categories: springboot
 comments: true
 ---
 
-
-
 ## 실행 환경
  > STS3, MySQL
 
-
-
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
-
-
 
 
 오늘은 가입창 만들기~
