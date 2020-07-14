@@ -334,7 +334,7 @@ model.addAttribute("posting", postService.findByUserIdOrderByIdDesc(u.getId()));
 		</a>
 	</div>
 
-	<c:forEach var="p" items="${posting}"> <!-- java의 for문과 같다 posting list를 for문돌림 --!>
+	<c:forEach var="p" items="${posting}"> <!-- java의 for문과 같다 posting list를 for문돌림 -->
 		<div class="r">
 			<div class="ii">
 				<div class="title_image">
