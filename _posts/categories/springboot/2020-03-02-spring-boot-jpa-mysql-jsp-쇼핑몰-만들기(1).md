@@ -32,3 +32,5 @@ comments: true
 <https://leleluv1122.github.io/springboot/spring-boot-instagram-6/>
 
 <https://leleluv1122.github.io/springboot/spring-boot-instagram-7/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-8/>
