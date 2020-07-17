@@ -5,12 +5,21 @@ categories: springboot
 comments: true
 ---
 
-에러가 있어서 
 
+쇼핑몰은 인스타그램 만들기 포스팅끝나고 나서 더 할 예정~_~!  
 
-1단계  
+쇼핑몰 만들기 (일시정지)  
 <https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-1/>
-
-
-2단계  
 <https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-2/>
+
+완성본 깃헙: <https://github.com/leleluv1122/HuiHeeGirls>
+
+
+인스타그램 만들기 (2020.06.29 ~ )  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-4/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-5/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-6/>
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-7/>
