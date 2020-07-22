@@ -10,6 +10,23 @@ comments: true
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-4/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-5/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-6/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-7/>
+
+
+
 # User 검색
  user검색은 생각보다 간단하다! 먼저 bottom.jsp에 검색할 페이지를 만들어준다.
 

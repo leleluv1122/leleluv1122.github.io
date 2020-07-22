@@ -10,6 +10,25 @@ comments: true
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-4/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-5/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-6/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-7/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-8/>
+
+
+
 오늘은 post page내에서 동적으로 좋아요 누르는 걸 해볼거다,,, 졸 라 힘 듬
 
 먼저 main페이지에서 post페이지로 가는걸 onclick 이벤트를 달아줘서 설정했다  

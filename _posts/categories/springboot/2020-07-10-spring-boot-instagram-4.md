@@ -10,6 +10,15 @@ comments: true
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+
+
+
 
 이제 유저로그인까지 가능하다  그럼 바로 메인페이지 틀부터 잡아야 하지않을까???  
 

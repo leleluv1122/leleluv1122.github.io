@@ -11,6 +11,16 @@ comments: true
 
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
+
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-4/>
+
   
 # 프로필 이미지 변경
  이전 포스팅의 user.jsp 에서 `<a href="update/${user.id}">프로필 수정</a>` 부분이 있었다.  

@@ -11,7 +11,11 @@ comments: true
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
   
   
-  
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
 
 오늘은 가입창 만들기~
 

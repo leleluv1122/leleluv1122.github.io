@@ -10,6 +10,10 @@ comments: true
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
+## 이전포스팅
+ <https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+
 
 ![회원가입화면](../../../assets/l-6.JPG)
 

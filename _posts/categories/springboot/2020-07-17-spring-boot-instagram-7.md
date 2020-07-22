@@ -10,6 +10,23 @@ comments: true
 ## 사용언어(환경)
  > Spring boot(JAVA, JSP), JPA, Bootstrap(부트스트랩), 스프링 시큐리티
 
+
+## 이전포스팅  
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-1/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-2/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-3/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-4/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-5/>
+
+<https://leleluv1122.github.io/springboot/spring-boot-instagram-6/>
+
+
+
+
 # 팔로우&팔로잉
 
 ## DB 생성
