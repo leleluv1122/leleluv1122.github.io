@@ -185,18 +185,7 @@ public class Follow_request {
 ```java
 public interface Follow_requestRepository extends JpaRepository<Follow_request, Integer> {
 	// 요청user의 id와 요청받는user의 id가 id1, id2인 개수
-	int countByRequestIdAndReceiveId(int id1, int id2); 
-	
-	// 요청받은 user의 id가 있는 db의 개수
-	int countByReceiveId(int id);
-	
-	// 요청받은 user의 id가 있는 db list
-	List<Follow_request> findByReceiveId(int id);
-
-	// 삭제
-	@Modifying
-	@Transactional
-	void deleteByRequestIdAndReceiveId(int id1, int id2);
+	int countByRequestIdAndReceiveId(int id1, int id2);
 }
 ```
 
@@ -268,7 +257,7 @@ private int follow_request(@PathVariable int id) throws Exception {
 ## follow_s.jsp
  파일위치: outstagram/src/webapp/WEB-INF/views/main/follow_s.jsp
 
-```java
+```html
 function followview(){
 	$.ajax({
 		url : '/follow/view/' + pageid,
