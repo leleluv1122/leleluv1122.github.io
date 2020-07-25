@@ -257,7 +257,7 @@ private int follow_request(@PathVariable int id) throws Exception {
 ## follow_s.jsp
  파일위치: outstagram/src/webapp/WEB-INF/views/main/follow_s.jsp
 
-```html
+```javascript
 function followview(){
 	$.ajax({
 		url : '/follow/view/' + pageid,

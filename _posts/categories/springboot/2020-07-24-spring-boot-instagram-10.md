@@ -97,7 +97,7 @@ public class FollowController {
 ## follow_s.jsp
  파일위치: outstagram/src/webapp/WEB-INF/views/main/follow_s.jsp
 
-```html
+```javascript
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <script>
@@ -265,7 +265,7 @@ public class SecretuserController {
 
 [토글설정](https://codepen.io/mallendeo/pen/eLIiG) 원 코드를 보고싶다면 고고씽 !!
 
-```html
+```javascript
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <script>

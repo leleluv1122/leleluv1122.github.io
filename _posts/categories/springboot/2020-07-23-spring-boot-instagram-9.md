@@ -168,7 +168,7 @@ public class HeartController {
 ## like.jsp
  파일위치: /src/main/webapp/WEB-INF/views/main/like.jsp
 
-```java
+```javascript
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <script>
@@ -240,7 +240,7 @@ private int like_delete(@PathVariable int id) throws Exception {
 ## like.jsp
  파일위치: /src/main/webapp/WEB-INF/views/main/like.jsp
 
-```java
+```javascript
 function likeInsert(pid){
 	$.ajax({
 		// onclick="likeInsert('+ id +');  // view에서 이런식으로 한 이유는..(밑에줄)
