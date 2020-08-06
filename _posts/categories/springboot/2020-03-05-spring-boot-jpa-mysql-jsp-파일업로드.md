@@ -12,12 +12,11 @@ comments: true
 
  mybatis 파일업로드 게시글을 많이 참고했습니당~~ㅎ
 
- mybatis 파일업로드에대한 출처는 <https://private.tistory.com/59> 요기입니당
+ mybatis 파일업로드에대한 출처는 <https://private.tistory.com/59>
 
  이미 lombok은 설치된 상태입니다! 
 
-없으신 분들은 
-<https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-%EC%87%BC%ED%95%91%EB%AA%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0(2)/> 게시글을 참조해주세요
+없으신 분들은 [lombok설치](https://leleluv1122.github.io/springboot/spring-boot-jpa-mysql-jsp-2/) 게시글을 참조해주세요
 
 ## 1) Spring 프로젝트 생성하기
 
