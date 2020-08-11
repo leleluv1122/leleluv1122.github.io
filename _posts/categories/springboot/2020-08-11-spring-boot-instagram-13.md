@@ -276,6 +276,6 @@ public class CommentController {
 </script>
 ```
 
-![댓글작성](../../../assets/13-1.gif)
+![댓글작성](../../../assets/13-2.gif)
 
 이제 거의 끝나간다,,,^^
