@@ -69,5 +69,8 @@ comments: true
    부하 분배기(Load Balancer)가 존재  
    - 구현 방법  
      DR(Direct Routing), NAT(Network Address Translation)
+
    - 알고리즘  
      순환 할당(Round Robin), 최소 연결(Least-Connection) 스케줄링 사용
+
+
