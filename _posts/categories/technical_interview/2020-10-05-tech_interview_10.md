@@ -32,6 +32,7 @@ comments: true
    시스템에 자원의 사본이 여러 개 있다는 사실을 감춤
  - 이동 투명성  
    자원을 어떤 컴퓨터에서 다른 컴퓨터로 이동하여도 그것을 의식하지 않고 사용자가 그 자원을 사용
+
  - 영속 투명성  
  - 자원 투명성  
  - 트랜잭션 투명성  
@@ -69,7 +70,6 @@ comments: true
    부하 분배기(Load Balancer)가 존재  
    - 구현 방법  
      DR(Direct Routing), NAT(Network Address Translation)
-
    - 알고리즘  
      순환 할당(Round Robin), 최소 연결(Least-Connection) 스케줄링 사용
 
