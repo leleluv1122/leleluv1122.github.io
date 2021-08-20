@@ -7,9 +7,9 @@ comments: true
 취직한 회사에서 mybatis를 사용중이라서 mybatis를 다시 공부하고 사용중인데 코드를 작성하다가 생소한 mybatis문법을 발견해서 작성하는중!
 
 # Mybatis 프로시져 호출
-## ResultMap을 Hashmap type으로 선언하기  
-## select element의 statementType을 CALLABLE로 설정하기  
-## 프로시져 파라미터 중 IN type은 굳이 안써줘도 됨(밑에는 예시라서 씀), OUT type은 선언해줘야 한다!
+## 1. ResultMap을 Hashmap type으로 선언하기  
+## 2. select element의 statementType을 CALLABLE로 설정하기  
+## 3. 프로시져 파라미터 중 IN type은 굳이 안써줘도 됨(밑에는 예시라서 씀), OUT type은 선언해줘야 한다!
 
 ```xml
 <select id="selectList" resultType="data" parameterType="data" statementType="CALLABLE">
