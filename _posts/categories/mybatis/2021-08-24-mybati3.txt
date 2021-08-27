@@ -1,0 +1,15 @@
+﻿---
+title: "DB2 Mybatis 빈칸이 있는 Null값 공백처리"
+categories: mybatis
+comments: true
+---
+
+어떤 컬럼이 빈칸이 있는 null값이거나 빈칸이 없는데 null or '' 로 걸러지지 않을 때 사용하는 문법
+
+```
+NVL(Col_name, '')
+```
+
+이렇게 쓰게되면 col_name에 해당하는 값이 없을경우 ''로 바뀐다!
+
+` NVL(PSWD, '') != '' ` pswd가 not null 일때 라는 조건 - 이런식으로 사용가능하다.
